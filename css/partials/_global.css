@@ -1,0 +1,70 @@
+.title-text {
+    font: normal bold 50px/50px var(--roboto);
+}
+
+.text-uppercase {
+     text-transform: uppercase;
+}
+
+.button {
+    padding: 0.8rem 2.2rem;
+    font : normal 500 16px/20px var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primary-button {
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition:  0.6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.button.primary-button:hover {
+    background:whitesmoke;
+    background-clip: padding-box;
+    color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+}
+
+.button.primary-button::after {
+    position: absolute;
+    content: '';
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: var(--gradient-color);
+    border-radius: 4px;
+    z-index: -1;
+}
+
+.button.secondary-button {
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: var(--primary-color);
+    transition: 0.6s ease;
+    box-shadow: var(--box-shadow);    
+
+}
+
+.button.secondary-button:hover {
+    color: whitesmoke;
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    box-shadow: var(--box-shadow);
+}
+
+.button.secondary-button::after {
+    position: absolute;
+    content: '';
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: var(--gradient-color);
+    border-radius: 4px;
+    z-index: -1;
+}
