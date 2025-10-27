@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import url(./partials/_variables.css);
-@import url(./partials/_global.css);
 
 body {
     font-family: var(--roboto);
@@ -76,3 +74,5 @@ body {
 .site-main .site-banner .site-title h4 {
    font-size: 1.5rem;
 }
+
+
