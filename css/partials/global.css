@@ -1,4 +1,4 @@
-@import url('./partials/_global.css');
+@import url('./partials/variables.css');
 
 .title-text {
     font: normal bold 50px/50px var(--roboto);
