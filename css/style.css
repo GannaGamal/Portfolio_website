@@ -55,6 +55,7 @@ body {
   z-index: -1; 
 }
 
+
 .site-main .site-banner .site-title h3 {
     font-size: 3rem;
     padding-top: 35%;
@@ -127,8 +128,6 @@ body {
 }
 
 
-
-
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
     box-shadow: var(--shadow-color);
     transform: scale(1.1);
@@ -182,7 +181,7 @@ body {
 /*services*/
 
 .site-main .services-area{
-    padding: 7rem 20rem;
+    padding: 7rem 5rem;
 }
 
 .site-main .services-area .services-title{
@@ -210,4 +209,32 @@ body {
     box-shadow: var(--shadow-color);
 }
 
+/*project*/
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font : normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font : normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
 
